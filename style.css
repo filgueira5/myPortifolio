@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+    --black: #030303;
+    --medium-brown: #7a746e;
+    --light-cream: #fff7f0;
+    --light-red: #eb7565;
+    --cyan: #61c4b7;
+    --dark-purple: #552049;
+    --pink: #f39e9e;
+    --summer-yellow: #f6a560;
+    --galact-blue: #755cde;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-cream);
+}
+
+body {
+    background-color: var(--light-cream);
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+#consultar {
+    background-color: var(--black);
+    padding: 8px 24px;
+    border-radius: 999px;
+    text-align: center;
+}
+
+#consultar a{
+    text-decoration: none;
+    color: var(--light-cream);
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+}
+
+.main-content{
+    margin-top: 54px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#my-name  a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 18px;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#my-name {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#main-title {
+    font-size: 56px;
+}
+
+#main-subtitle {
+    margin-top: 30px;
+    font-size: 18px;
+    color: var(--medium-brown);
+}
+
+#left-side img {
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+.about-me {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+#right-side {
+    width: 700px;
+}
+
+#about-me-title {
+    margin-bottom: 16px;
+}
+
+#right-side p {
+    font-size: 16px;
+    color: var(--medium-brown);
+}
+
+.links-area {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links-area a:hover {
+    transition: 0.9s;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#linkedin-link, #github-link, #gmail-link {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 999px;
+}
+
+#linkedin-link {
+    background-color: var(--galact-blue);
+}
+
+#github-link {
+    background-color: var(--black);
+}
+
+#gmail-link {
+    background-color: var(--pink);
+}
+
+.projects-title {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card-project img {
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card-project:hover {
+    transition: 0.9s;
+    scale: 1.1;
+    opacity: 2;
+}
+
+.motivacional {
+    font-size: 20px;
+    color: var(--medium-brown);
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--medium-brown);
+    color: var(--light-cream);
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.left-contact-side {
+    width: 600px;
+}
+
+.left-contact-side h1{
+    margin-bottom: 16px;
+}
+
+.left-contact-side p{
+    color: var(--light-cream);
+    font-size: 18px;;
+}
+
+#consulte-btn {
+    background-color: var(--summer-yellow);
+    padding: 8px 24px;
+    border-radius: 999px;
+    text-align: center;
+    margin-bottom: 50px;
+}
