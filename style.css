@@ -209,3 +209,7 @@ nav {
     text-align: center;
     margin-bottom: 50px;
 }
+
+#my-name, #main-title, #main-subtitle {
+    visibility: hidden;
+}
